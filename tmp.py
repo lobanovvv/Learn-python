@@ -11,4 +11,4 @@ translateNumToWord = {
     0: "zero"
 }
 
-print(translateNumToWord.count())
+print(translateNumToWord())
