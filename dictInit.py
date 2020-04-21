@@ -6,5 +6,5 @@ arrDist = {
 }
 
 arrDist["car"] = "Niva"
-print(arrDist.get("car"))
+print(arrDist.get("value","error massage"))
 print(arrDist)
