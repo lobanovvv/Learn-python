@@ -1,9 +1,10 @@
-name = input("Input your name")
-lenName = len(name)
+price = 1000000
+has_good_credit = False
 
-if lenName < 3:
-    print("Your name must have 3 characters")
-elif lenName > 50:
-    print("Your name must have maximum 50 characters")
+if has_good_credit:
+    downPayment = int(price * 0.1)
+    print("You down payment = " + str(downPayment))
 else:
-    print("Name looks good!")
+    downPayment = int(price * 0.2)
+    print("You down payment = " + str(downPayment))
+print("The end")
