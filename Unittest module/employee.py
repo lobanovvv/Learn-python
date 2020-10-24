@@ -17,6 +17,4 @@ class Employee:
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amt)
 
-emp_1 = Employee('Corey', 'Schafer', 50000)
-print((emp_1.fullname))
 
